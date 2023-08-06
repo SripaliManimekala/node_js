@@ -3,7 +3,7 @@ let age =28;
 let hasHobbies=true;    
 
 
-function summarizeUser(userName,userAge,userHasHobby){
+const summarizeUser = (userName,userAge,userHasHobby) => {
 
     return (
         'name is ' +userName +
