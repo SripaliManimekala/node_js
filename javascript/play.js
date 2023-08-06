@@ -12,4 +12,8 @@ const summarizeUser = (userName,userAge,userHasHobby) => {
         );
 }
 
+const add = (a, b) =>{
+    return a+b;
+}
+console.log(add(1,2));
 console.log(summarizeUser(name,age,hasHobbies));
