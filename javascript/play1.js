@@ -7,3 +7,8 @@ const person = {
 }
 
 person.greet();
+
+const hobbies = ['cooking','sports'];
+ for (let hobby of hobbies){
+    console.log(hobby);
+ }
