@@ -16,5 +16,5 @@ const hobbies = ['cooking','sports'];
 console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 console.log(hobbies);
 
-hobbies.push('programming');//even though array is cconst since its reference type we can edit it
+hobbies.push('programming');//even though array is const since its reference type we can edit it
 console.log(hobbies);
