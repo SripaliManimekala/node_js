@@ -22,3 +22,6 @@ console.log(hobbies);
 const coppiedArray = hobbies.slice();
 //copying the whole array to new variable
 console.log(coppiedArray);
+
+const coppiedArray2 = [hobbies];
+console.log(coppiedArray2);
