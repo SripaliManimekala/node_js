@@ -8,6 +8,10 @@ const person = {
 
 person.greet();
 
+const coppiedPerson = {...person}
+
+console.log(coppiedPerson);
+
 const hobbies = ['cooking','sports'];
  for (let hobby of hobbies){
     console.log(hobby);
