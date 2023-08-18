@@ -1,4 +1,8 @@
-setTimeout(()=>{console.log('timer is done!')}, 2000);
+console.log(1);
+console.log(2);
 
-console.log('hello');
-console.log('hi');
+
+setTimeout(()=>{console.log('callback function is fired')}, 2000);
+
+console.log(3);
+console.log(4);
