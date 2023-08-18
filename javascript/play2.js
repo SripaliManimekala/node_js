@@ -12,8 +12,19 @@ const printName =(personData)=>{
 
 printName(person);
 
+
+//destructuring object
 const printName2 =({name})=>{
     console.log(name);
 }
 
 printName2(person);
+
+const {name, age} = person;
+console.log(name, age);
+
+//destructuring array
+const hobbies = ['cooking','sports'];
+let [hobby1 , hobby2]  = hobbies ;
+console.log(hobby1,hobby2);
+
