@@ -11,3 +11,9 @@ const printName =(personData)=>{
 }
 
 printName(person);
+
+const printName2 =({name})=>{
+    console.log(name);
+}
+
+printName2(person);
